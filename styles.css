@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #9b9b9b;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar ul {
+    list-style: none;
+    text-align: left;
+    display: flex;
+    gap: 20px;
+}
+.navbar ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+.navbar ul li a:hover {
+    color: #555;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.fotoperfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+}
+.apresentacao, .nome-stack, section {
+    text-align: center;
+    margin: 40px 10%;
+}
+#sobre h1 {
+    margin-bottom: 20px;
+}
+
+#sobre h3 {
+    margin-bottom: 15px;
+}
+
+#sobre p {
+    margin-top: 15px;
+}
+.nome-stack h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nome-stack h2 {
+    font-size: 20px;
+    color: #333;
+    font-weight: 600;
+}
+.projeto, .habilidade-list, .links {
+    background: #9b9b9b; 
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;   
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    color: #333; 
+}
+.projeto h3 {
+    margin-bottom: 10px;
+}
+.projeto h4 {
+    margin-bottom: 10px;
+}
+.projeto p {
+    margin-bottom: 10px;
+}
+
+.habilidade-list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.habilidade-list button {
+    background: #f1f1f1;
+    color: #333;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.habilidade-list button:hover {
+    background: #ddd;
+}
+.links a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+.links a:hover {
+    color: #555;
+}
+.dark-mode {
+    background-color: #121417; 
+    color: #e0e0e0; 
+}
+.dark-mode .navbar {
+    background-color: #22262a; 
+}
+.dark-mode .navbar h1 {
+    color: #ffffff;
+}
+.dark-mode .navbar ul li a,
+.dark-mode .nome-stack h2 {
+    color: #cccccc;
+}
+.dark-mode .navbar ul li a:hover {
+    color: #ffffff;
+}
+.dark-mode .fotoperfil {
+    border: 3px solid #444;
+}
+.dark-mode .projeto, 
+.dark-mode .habilidade-list, 
+.dark-mode .links {
+    background-color: #22262a; 
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.dark-mode .habilidade-list button {
+    background-color: #444;
+    color: #ffffff;
+    border: none;
+}
+.dark-mode .habilidade-list button:hover {
+    background-color: #666;
+}
+.dark-mode .links a {
+    color: #cccccc;
+}
+.dark-mode .links a:hover {
+    color: #ffffff;
+}
